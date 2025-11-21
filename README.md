@@ -22,10 +22,16 @@ This project evolves step-by-step from a **single-file Express server** into a *
 src/
 config/
 config.js
-controllers/
-user.controller.js
-routes/
-user.routes.js
+data/
+users.json
+middlewares/
+errorHandler.js
+notFound.js
+validateUser.js
+users/
+controller.js
+routes.js
+service.js
 index.js
 .env
 package.json
@@ -136,10 +142,3 @@ Free to use for learning.
 ```
 
 ---
-
-If you want, I can generate:  
-✅ A more advanced README  
-✅ API request/response examples  
-✅ A diagram of your folder structure  
-Just tell me.
-```
